@@ -5,12 +5,10 @@
 
 ### **RedirectAttributes을 이용한 데이터 전달 방법 2가지 메서드**
 - addAttribute
-- addFlashAttribute
-
-- **addAttribute**
     - URL에 정보 노출이 있다
     - /URL?key=value 형식 전달 
-- **addFlashAttribute**
+
+- addFlashAttribute
     - URL에 정보 노출이 없다
     - 임시로 저장하는 방식
     - 세션에 저장되어 사용된 뒤에 자동으로 삭제된다.
