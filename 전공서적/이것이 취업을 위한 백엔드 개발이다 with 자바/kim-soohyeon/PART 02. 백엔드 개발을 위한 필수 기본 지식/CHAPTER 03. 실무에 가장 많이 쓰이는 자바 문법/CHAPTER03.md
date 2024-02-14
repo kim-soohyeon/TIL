@@ -55,4 +55,11 @@
                 - .class 파일을 실행할 수 있는 환경을 제공하는 S/W
             - JVM(Java Virtual Machine)
                 - JRE의 일부로 .class 파일을 실행하는 주체
+    - Open JDK
+        - 오픈 소스로 공개된 JDK. 상업적 사용 가능
+    - Oracle JDK
+        - 기업에서 사용하려면 라이선스 사용료 지급 필요
+    - LTS(Long Term Support)
+        - 장기간 기술 지원을 받을 수 있다는 의미
+        - JDK 8, 11, 17, 21 버전이 이에 해당됨
     -
