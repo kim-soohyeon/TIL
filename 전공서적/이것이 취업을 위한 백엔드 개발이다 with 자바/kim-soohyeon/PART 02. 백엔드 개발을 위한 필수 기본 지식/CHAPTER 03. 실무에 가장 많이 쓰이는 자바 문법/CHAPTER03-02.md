@@ -79,3 +79,56 @@ public class Main {
 - Sonata, K5 → 인터페이스를 구현하는 구현체(Implement)
 
 → 인터페이스(혹은 부모 클래스)의 참조 변수로 구현 클래스(혹은 자식 클래스)의 인스턴스를 넣어 사용할 수 있다.
+
+## 컬렉션: List
+
+컬렉션(Collection)
+
+- 데이터의 집합
+- ex) List, Set, Map → 인터페이스
+- ArrayList: List 인터페이스의 구현체
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        List list = new ArrayList<Integer>();
+        // <Integer>는 ArrayList에 Integer 타입이 저장될 수 있다는 것을 의미한다.
+
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+        System.out.println(list.get(1));
+    }
+}
+
+```
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        List list = new ArrayList<String>();
+
+        list.add("public");       // ["public"]
+        list.add("static");       // ["public", "static"]
+        list.add("void");         // ["public", "static", "void"]
+
+        // for 문으로 List를 순회할 수 있다.
+        for (int i = 0; i < list.size(); i++) { // list.size()는 리스트의 크기를 반환한다.
+            System.out.println(list.get(i));    // i번째 요소가 출력된다.
+        }
+
+        list.remove(1);     // 1번째 요소인 "static"이 제거된다. -> ["public", "void"]
+        int voidIndex = list.indexOf("void");   // void의 인덱스인 1이 반환된다.
+        System.out.println("void의 index = " + voidIndex);
+    }
+}
+
+```
