@@ -82,53 +82,91 @@ public class Main {
 
 ## 컬렉션: List
 
-컬렉션(Collection)
+- 컬렉션(Collection)
+    - 데이터의 집합
+    - ex) List, Set, Map → 인터페이스
+    - ArrayList: List 인터페이스의 구현체
 
-- 데이터의 집합
-- ex) List, Set, Map → 인터페이스
-- ArrayList: List 인터페이스의 구현체
-
-```java
-import java.util.ArrayList;
-import java.util.List;
-
-public class Main {
-    public static void main(String[] args) {
-        List list = new ArrayList<Integer>();
-        // <Integer>는 ArrayList에 Integer 타입이 저장될 수 있다는 것을 의미한다.
-
-        list.add(1);
-        list.add(2);
-        list.add(3);
-
-        System.out.println(list.get(1));
-    }
-}
-
-```
-
-```java
-import java.util.ArrayList;
-import java.util.List;
-
-public class Main {
-
-    public static void main(String[] args) {
-        List list = new ArrayList<String>();
-
-        list.add("public");       // ["public"]
-        list.add("static");       // ["public", "static"]
-        list.add("void");         // ["public", "static", "void"]
-
-        // for 문으로 List를 순회할 수 있다.
-        for (int i = 0; i < list.size(); i++) { // list.size()는 리스트의 크기를 반환한다.
-            System.out.println(list.get(i));    // i번째 요소가 출력된다.
+- List
+    
+    ```java
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class Main {
+        public static void main(String[] args) {
+            List list = new ArrayList<Integer>();
+            // <Integer>는 ArrayList에 Integer 타입이 저장될 수 있다는 것을 의미한다.
+    
+            list.add(1);
+            list.add(2);
+            list.add(3);
+    
+            System.out.println(list.get(1));
         }
-
-        list.remove(1);     // 1번째 요소인 "static"이 제거된다. -> ["public", "void"]
-        int voidIndex = list.indexOf("void");   // void의 인덱스인 1이 반환된다.
-        System.out.println("void의 index = " + voidIndex);
     }
-}
+    
+    ```
+    
 
-```
+- ArrayList
+    
+    ```java
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class Main {
+    
+        public static void main(String[] args) {
+            List list = new ArrayList<String>();
+    
+            list.add("public");       // ["public"]
+            list.add("static");       // ["public", "static"]
+            list.add("void");         // ["public", "static", "void"]
+    
+            // for 문으로 List를 순회할 수 있다.
+            for (int i = 0; i < list.size(); i++) { // list.size()는 리스트의 크기를 반환한다.
+                System.out.println(list.get(i));    // i번째 요소가 출력된다.
+            }
+    
+            list.remove(1);     // 1번째 요소인 "static"이 제거된다. -> ["public", "void"]
+            int voidIndex = list.indexOf("void");   // void의 인덱스인 1이 반환된다.
+            System.out.println("void의 index = " + voidIndex);
+        }
+    }
+    
+    ```
+    
+
+## 동일성(identity)과 동등성(equality)
+
+- 동일성 비교
+    - 아래 예제에서 str1과 str2는 다른 인스턴스를 참조하기 때문에 두 값은 동일하지 않다.
+    
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+            String str1 = new String("is same?");
+            String str2 = new String("is same?");
+    
+            System.out.println(str1 == str2); // true or false?
+        }
+    }
+    ```
+    
+- 동등성 비교
+    - 동등성을 비교하기 위해서는 생성한 클래스를 위한 equals() 메서드를 오버라이딩해줘야 한다. hashCode()메서드도 함께 오버라이딩해주는 것이 좋다.
+    cf. 인텔리제이에서 equals() 와 hashCode() 자동 생성하기
+    → 우클릭 > Generate > equals() and hashCode()
+    
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+            String str1 = new String("is same?");
+            String str2 = new String("is same?");
+    
+            System.out.println(str1.equals(str2)); // true or false?
+        }
+    }
+    
+    ```
