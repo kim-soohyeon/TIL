@@ -182,3 +182,197 @@ public class Main {
 컬렉션의 요소들 중 조건에 맞는 요소만 뽑아 새로운 스트림을 만든다.
 
 collect()와 함께 사용하면 조건을 만족하는 새로운 리스트를 만들 수 있다.
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+    public static void main(String[] args) {
+        Integer[] integerArray = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        List<Integer> list = Arrays.asList(integerArray);
+        List evenList = list.stream()
+               .filter(value -> value % 2 == 0).collect(Collectors.toList());
+        evenList.stream().forEach(value -> System.out.println(value));
+    }
+}
+
+```
+
+### distinct()
+
+컬렉션의 요소에서 중복을 제거한다.
+
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        Integer[] integerArray = new Integer[]{1, 1, 1, 1, 2, 2, 2, 3, 3, 4};
+        List<Integer> list = Arrays.asList(integerArray);
+        List<Integer> distinctList = list.stream().distinct().toList();
+        distinctList.stream().forEach(value -> System.out.println(value));
+    }
+}
+
+```
+
+### map()
+
+컬렉션의 요소에 특정 연산을 적용하여 새로운 스트림을 만든다.
+
+입력 컬렉션과 출력 컬렉션의 수는 동일하다.
+
+- 소문자 요소를 대문자로 바꾸는 예제
+
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] lowercaseArray = new String[]{"public", "static", "void"};
+        List<String> lowercaseList = Arrays.asList(lowercaseArray);
+        List<String> uppercaseList = lowercaseList.stream()
+                .map(value -> value.toUpperCase()).toList();
+        uppercaseList.stream().forEach(value -> System.out.println(value));
+    }
+}
+
+```
+
+### collect() / toList()
+
+.collect(Collectors.toList()) 형태로 스트림을 간단하게 리스트로 만들 수 있다.
+
+.toList()를 사용하여 간결하게 작성도 가능하다.
+
+## Optional
+
+### Optional
+
+- NullPointException을 우아하게 해결하기 위해 등장함
+    - cf. NullPointException
+        
+        : null이 들어 있는 레퍼런스 변수의 멤버(필드나 메서드)에 접근하려고할 때 발생하는 예외
+        
+
+```java
+public class Main {
+    private static String getSomeString() {
+        return null; // 이 메서드는 항상 null을 반환한다.
+    }
+
+    public static void main(String[] args) {
+        String isThisNull = getSomeString();
+
+        if(null != isThisNull) {
+            System.out.println(isThisNull.toUpperCase());
+        }
+    }
+}
+
+```
+
+```java
+public class Main {
+    private static String getSomeString() {
+        return null; // 이 메서드는 항상 null을 반환한다.
+    }
+
+    public static void main(String[] args) {
+        String isThisNull = getSomeString();
+
+        System.out.println(isThisNull.toUpperCase());
+    }
+}
+
+```
+
+Optional 활용하여 개선하기
+
+```java
+import java.util.Optional;
+
+public class Main {
+    private static Optional<String> getSomeString() {
+        return Optional.empty(); // null을 반환하는 것이 아니라 비어 있는 Optional을 반환한다.
+    }
+
+    public static void main(String[] args) {
+        Optional<String> isThisNull = getSomeString();
+
+        isThisNull.ifPresent(str -> System.out.println(str.toUpperCase()));
+    }
+}
+
+```
+
+```java
+import java.util.Optional;
+
+public class Main {
+    private static Optional<String> getSomeString() {
+        return Optional.ofNullable("public static void");
+    }
+
+    public static void main(String[] args) {
+        Optional<String> isThisNull = getSomeString();
+
+        isThisNull.ifPresent(str -> System.out.println(str.toUpperCase())); // PUBLIC STATIC VOID가 출력된다.
+    }
+}
+
+```
+
+### 안티 패턴
+
+Optional을 사용하면서 주의해야 할 패턴
+
+- 디자인 패턴
+    - S/W 개발 과정에서 자주 나타나는 문제 해결 방법 중 다른 분야에서도 재사용하기 좋은 코드의 패턴을 모아 이름을 붙인 것
+
+- 안티 패턴
+    - 디자인 패턴과 반대로 S/W 개발 과정에서 자주 나타나지만, 비효율적이거나 생산적이지 않은 패턴.
+    - 가독성을 떨어뜨리거나 성능상 손실을 유발하므로 지양해야 함.
+    - isPresent() 메서드를 마치 if 문처럼 잘못 사용한 예시
+        
+        ```java
+        import java.util.Optional;
+        
+        public class Main {
+            private static Optional<String> getSomeString() {
+                return Optional.ofNullable("public static void");
+            }
+        
+            public static void main(String[] args) {
+                Optional<String> str = getSomeString();
+        
+                if(str.isPresent()) {
+                    System.out.println(str.get().toUpperCase());
+                }
+            }
+        }
+        
+        ```
+        
+    - Optional을 제대로 사용하는 코드로 변경한 예시
+        
+        ```java
+        import java.util.Optional;
+        
+        public class Main {
+            private static Optional<String> getSomeString() {
+                return Optional.ofNullable("public static void");
+            }
+        
+            public static void main(String[] args) {
+                Optional<String> str = getSomeString();
+        
+                str.ifPresent((string) -> System.out.println(string.toUpperCase()));
+            }
+        }
+        
+        ```
