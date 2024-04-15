@@ -1,5 +1,5 @@
 # Part1. 스프링 부트 개요
 
-[1장 스프링 부트 시작하기](https://www.notion.so/1-374d15d52e1548729dc4f8c309f12c58?pvs=21)
+[1장 스프링 부트 시작하기](https://github.com/kim-soohyeon/TIL/tree/963d1a26fe69774b38c752f151e931d5752cf7e8/%EC%A0%84%EA%B3%B5%EC%84%9C%EC%A0%81/%EC%BD%94%EB%94%A9%20%EC%9E%90%EC%9C%A8%ED%95%99%EC%8A%B5%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%203%20%EC%9E%90%EB%B0%94%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%20%EC%9E%85%EB%AC%B8/kim-soohyeon/Part1.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%20%EA%B0%9C%EC%9A%94/1%EC%9E%A5%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
 [2장 MVC 패턴 이해와 실습](https://www.notion.so/2-MVC-3807564a51fd4df9bedb5b327d58fba0?pvs=21)
