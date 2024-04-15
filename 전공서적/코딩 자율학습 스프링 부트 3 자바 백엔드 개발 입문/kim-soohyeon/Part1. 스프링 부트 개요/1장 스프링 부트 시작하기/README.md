@@ -25,23 +25,23 @@
 
 운영체제 Windows / 아키텍처 x64 / 패키지 타입 JDK / 버전 17 - LTS 선택 후 .msi 다운로드
 
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/ba48a30a-1cc0-4ca6-8218-de9849cb11a6)
 
 설치 파일 실행하여 Finish 버튼이 나올 때 까지 설치 진행
 
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%201.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/342c2439-c795-4b84-9189-f95e34fc85ca)
 
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%202.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/5bbfe513-7036-48a9-a282-565b9ca2fc9d)
 
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%203.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/c3a73831-79b1-43af-bc7a-9cfe22ff851a)
+
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/9e3f5fd9-2739-4438-8203-5af82ce3d427)
 
 CMD 창에서 설치 확인
 
 - java -version
 
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%204.png)
-
-![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%205.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/189fd2e6-f392-4316-a54f-7798ce21d777)
 
 ### 1.2.2. IDE 설치하기
 
@@ -65,12 +65,12 @@ CMD 창에서 설치 확인
     - Packaging: Jar
     - Java: 17
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%206.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/f5c4974f-0109-4545-b64e-c6806654d901)
         
     - Artifact 수정
     : firstproject
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%207.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/b455c4ea-5b2b-42ce-bc2c-e919c5f569de)
         
     - 스프링 웹 도구 추가
         - Spring Web
@@ -78,33 +78,33 @@ CMD 창에서 설치 확인
         - Mustache
         - Spring Data JPA
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%208.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/1d852ba1-436c-42ed-997b-8a5ae3815082)
         
     - 프로젝트 내려받기
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%209.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/860e5f3c-b912-4084-ac6d-03704e98f9f8)
         
     - 다운로드 파일 확인
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2010.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/c4a7905c-bbe9-4a87-b309-402a66d43583)
         
     - 프로젝트 오픈
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2011.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/8ffbfa61-32e0-44a8-9539-f0431f0ef62c)
         
     - BUILD SUCCESS
     build: 소스 코드를 실행할 수 있는 독립적인 형태로 만드는 것.
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2012.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/c06119c3-6f23-4090-8005-e93868e1f06e)
         
     - 서버 동작 확인
     Started FirstprojectApplication….
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2013.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/7f03a26c-af15-49d7-99b2-698d7ec811dc)
         
     - 서버 접속하기
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2014.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/373ed8a8-60c7-40b1-a762-b6ce73cc88f2)
         
     - hello.html 생성
         
@@ -124,7 +124,7 @@ CMD 창에서 설치 확인
     - 서버 재접속
     [http://localhost:8080/hello.html](http://localhost:8080/hello.html)
         
-        ![Untitled](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%89%E1%85%B3%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%87%E1%85%AE%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20374d15d52e1548729dc4f8c309f12c58/Untitled%2015.png)
+        ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/9d84d608-2e8e-47e2-9616-526f5febf1ce)
         
     
     ## 1.3. 웹 서비스의 동작 원리 이해하기
@@ -140,7 +140,7 @@ CMD 창에서 설치 확인
     
     서버를 실행해야만 웹 브라우저를 통해 응답을 받을 수 있다.
     
-    ### 1.3.2. http://localhost:8080/hello.html의 의미
+    ### 1.3.2. http<h>://localhost:8080/hello.html의 의미
     
     - localhost
     내 컴퓨터의 주소인 127.0.0.1
