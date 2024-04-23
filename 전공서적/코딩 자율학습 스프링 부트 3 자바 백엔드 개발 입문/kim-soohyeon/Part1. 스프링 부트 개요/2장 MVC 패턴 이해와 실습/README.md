@@ -31,20 +31,20 @@
 
 src > main > resources > templates 디렉터리에 뷰 템플릿을 생성함.
 
-![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%202.png)
+![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/713761a0-eb72-468e-b2f6-b9ad832f6688)
 
 1. 뷰 템플릿 파일 만들기
 src > main > resources > templates 디렉터리에서 New → File을 선택함.
 greetings.mustache 파일 생성
 cf) mustache: 뷰 템플릿을 만드는 도구. 뷰 템플릿 엔진
     
-    ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%203.png)
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/4458636b-33b7-4abc-b336-99b0e95aa9ac)
     
 2. 머스테치 플러그인 설치
     
-    ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%204.png)
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/a060b4d4-9b4b-437d-be81-1b563979a172)
     
-    ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%205.png)
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/6cbf15aa-696c-4419-a7a9-6abcd38d4a50)
     
 3. 뷰 템플릿 코드 작성
 greetings.mustache 파일 제일 윗줄에 doc 입력 후 Tab 키 입력 → 기본 HTML 코드 작성됨.
@@ -74,10 +74,10 @@ greetings.mustache 파일 제일 윗줄에 doc 입력 후 Tab 키 입력 → 기
     
     New → Package를 선택하여 controller 패키지를 생성한다.
     
-    ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%206.png)
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/04c97efa-1dc3-4677-bd4b-ba0673ac0183)
     
 2. FirstController.java 생성
     
     New → Java Class 선택 후 FirstController 생성
     
-    ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20MVC%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%E1%84%8B%E1%85%AA%20%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8%203807564a51fd4df9bedb5b327d58fba0/Untitled%207.png)
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/08c4a0e7-5b16-4157-83cf-296a081d43b7)
