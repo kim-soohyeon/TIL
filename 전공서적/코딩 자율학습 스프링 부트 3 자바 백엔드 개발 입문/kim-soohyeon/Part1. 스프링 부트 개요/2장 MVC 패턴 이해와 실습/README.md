@@ -81,3 +81,59 @@ greetings.mustache 파일 제일 윗줄에 doc 입력 후 Tab 키 입력 → 기
     New → Java Class 선택 후 FirstController 생성
     
     ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/08c4a0e7-5b16-4157-83cf-296a081d43b7)
+
+3. FirstController 작성
+@Controller 어노테이션 추가
+cf) 어노테이션(annotation): 소스 코드에 추가해 사용하는 메타 데이터의 일종
+    
+    ```java
+    package com.example.firstproject.controller;
+    
+    import org.springframework.stereotype.Controller;
+    
+    @Controller
+    public class FirstController {
+    
+        public String niceToMeetYou(){
+            return "";
+        }
+    }
+    ```
+    
+4. greetings.mustache 파일 반환
+localhost:8080/hi 로 접속 시 greetings.mustache 파일 반환
+    
+    ```java
+    package com.example.firstproject.controller;
+    
+    import org.springframework.stereotype.Controller;
+    import org.springframework.web.bind.annotation.GetMapping;
+    
+    @Controller
+    public class FirstController {
+    
+        @GetMapping("/hi")
+        public String niceToMeetYou(){
+            return "greetings"; //greetings.mustache 파일 반환
+        }
+    }
+    
+    ```
+    
+5. 서버 실행하기
+메인 메서드에서 실행하기(FirstprojectApplication.java)
+6. 결과 확인
+localhost:8080/hi 로 접속
+6.1. 한글 깨짐 발생
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/d9495dd7-0360-47a5-9806-8f28b467ccdd)
+    
+    6.2. application.properties 수정 후 서버 재시작
+    
+    ```java
+    server.servlet.encoding.force=true
+    ```
+    
+    6.3. 서버 기동 성공
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/916e462e-e7db-4f17-8611-a61c80db14ef)
