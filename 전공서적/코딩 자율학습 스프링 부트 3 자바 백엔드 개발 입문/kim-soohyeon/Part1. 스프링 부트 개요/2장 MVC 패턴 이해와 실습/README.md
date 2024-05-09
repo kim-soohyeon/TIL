@@ -137,3 +137,47 @@ localhost:8080/hi 로 접속
     6.3. 서버 기동 성공
     
     ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/916e462e-e7db-4f17-8611-a61c80db14ef)
+    
+
+### 2.2.3. 모델 추가하기
+
+1. 뷰 템플릿 페이지에 변수 삽입하기
+- 머스테치 문법을 사용하여 변수를 추가한다.
+- {{변수명}}
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/f4475daa-7379-42bd-bc78-b73447eb80dd)
+    
+2. 컨트롤러에 모델 추가하여 변수 등록하기
+FirstController.java 파일을 수정하여 Model 타입의 model 매개변수를 추가한다.
+    
+    ```java
+    package com.example.firstproject.controller;
+    
+    import org.springframework.stereotype.Controller;
+    import org.springframework.ui.Model;
+    import org.springframework.web.bind.annotation.GetMapping;
+    
+    @Controller
+    public class FirstController {
+    
+        @GetMapping("/hi")
+        public String niceToMeetYou(Model model){ // model 객체 받아오기
+            model.addAttribute("username", "수현");
+            return "greetings"; //greetings.mustache 파일 반환
+        }
+    }
+    
+    ```
+    
+3. 서버 재기동 후 확인
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/bef755ba-f524-4f86-a403-7902c49ff8cb)
+    
+
+### * 핵심정리
+
+- 뷰 템플릿: 웹 페이지를 일종의 틀로 만든 것.
+- 컨트롤러: 클라이언트의 요청을 받아 서버에서 이를 처리하는 역할
+- 모델: 뷰 템플릿에서 사용되는 데이터를 관리하는 역할
+- @Controller: 이 클래스가 컨트롤러임을 선언함.
+- @GetMapping: 클라이언트가 URL 요청을 받아 특정 컨트롤러의 메서드가 처리하게 함.
