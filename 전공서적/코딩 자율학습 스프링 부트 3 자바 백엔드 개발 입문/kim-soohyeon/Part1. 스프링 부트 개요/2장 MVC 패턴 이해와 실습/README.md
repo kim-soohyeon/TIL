@@ -181,3 +181,42 @@ FirstController.java 파일을 수정하여 Model 타입의 model 매개변수�
 - 모델: 뷰 템플릿에서 사용되는 데이터를 관리하는 역할
 - @Controller: 이 클래스가 컨트롤러임을 선언함.
 - @GetMapping: 클라이언트가 URL 요청을 받아 특정 컨트롤러의 메서드가 처리하게 함.
+
+## 2.3. MVC의 역할과 실행 흐름 이해하기
+
+### 2.3.1. /hi 페이지의 실행 흐름
+
+### 2.3.2. /bye 페이지의 실행 흐름
+
+- seeYouNext 메서드 작성
+    
+    ```java
+    @GetMapping("/bye")
+    public String seeYouNext(Model model){ // model 객체 받아오기
+        model.addAttribute("username", "수현");
+        return "goodbye"; //goodbye.mustache 파일 반환
+    }
+    ```
+    
+- goodbye.mustache 파일 생성
+    
+    ```html
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>{{username}}님, 다음에 또 만나요!</h1>
+    </body>
+    </html>
+    ```
+    
+- 결과 확인
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/605aacaf-8474-4844-a34f-2d4d74495b05)
+    
+
