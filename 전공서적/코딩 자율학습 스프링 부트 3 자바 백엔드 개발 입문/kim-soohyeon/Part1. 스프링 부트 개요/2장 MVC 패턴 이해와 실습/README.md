@@ -220,3 +220,198 @@ FirstController.java 파일을 수정하여 Model 타입의 model 매개변수�
     ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/605aacaf-8474-4844-a34f-2d4d74495b05)
     
 
+## 2.4. 뷰 템플릿 페이지에 레이아웃 적용하기
+
+- 레이아웃(layout): 화면에 요소를 배치하는 일
+- 헤더-푸터 레이아웃(header-footer layout): 가장 기존이 되는 레이아웃. 샌드위치 구조.
+    - 헤더(header) 영역에는 내비게이션 삽입
+    - 푸터(footer) 영역에는 사이트 정보 삽입
+    - 헤더와 푸터 사이 영역에는 콘텐트(content)를 배치함.
+
+### 2.4.1. /hi 페이지에 헤더-푸터 레이아웃 적용하기
+
+부트스트랩을 활용하여 페이지를 쉽고 빠르게 꾸민다.
+
+cf) 부트스트랩(Bootstrap): 웹 페이지를 쉽게 만들 수 있도록 작성해 놓은 코드 모음
+
+1. 부트스트랩 홈페이지 접속
+v5.0.2
+    
+    [Introduction](https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template)
+    
+2. 스타터 템플릿 코드 복사
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/7cb95c5b-85d6-4734-8dfb-ab91edc16470)
+    
+3. greetings.mustache 파일에 적용
+    
+    ```html
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <!--navigation-->
+    
+        <!--content-->
+        <h1>{{username}}님, 다음에 또 만나요!</h1>
+    
+        <!--site info-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    ```
+    
+4. navbar 검색 후 코드 복사
+    
+    [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/2d1665c1-0c75-4e4c-bc66-008cab9d8e35)
+    
+5. 내비게이션 소스 적용
+    
+    ```html
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    
+        <!--content-->
+        <h1>{{username}}님, 다음에 또 만나요!</h1>
+    
+        <!--site info-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    ```
+    
+6. 내비게이션 바 확인
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/ce6560d2-2959-4699-a2c3-6b484561e4c2)
+    
+7. 푸터 추가 및 콘텐트 스타일 변경
+    
+    ```html
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    
+        <!--content-->
+        <div class="bg-dark text-white p-5">
+            <h1>{{username}}님, 반갑습니다!</h1>
+        </div>
+    
+        <!--site info-->
+        <div class="mb-5 container-fluid">
+            <hr>
+            <p>ⓒ CloudStudying | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    ```
+    
+8. 푸터 및 콘텐트 적용 확인
+    
+    ![Untitled](https://github.com/kim-soohyeon/TIL/assets/59382707/fc166c73-1f83-4e35-9d43-279ed22dbd06)
