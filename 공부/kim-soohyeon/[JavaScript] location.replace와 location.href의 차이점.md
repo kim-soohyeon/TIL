@@ -19,9 +19,8 @@ JavaScript를 사용하여 웹 페이지를 다른 URL로 이동시키는 방법
 - **코드**:
     
     ```jsx
-    javascript코드 복사
     // 사용자가 'https://example.com/about' 페이지로 이동
-    
+    location.href = 'https://example.com/about';
     ```
     
 
@@ -40,10 +39,8 @@ JavaScript를 사용하여 웹 페이지를 다른 URL로 이동시키는 방법
 - **코드**:
     
     ```jsx
-    javascript코드 복사
     // 로그인 후 사용자를 'https://example.com/dashboard'로 이동시키며, 이전 페이지 기록을 남기지 않음
     location.replace('https://example.com/dashboard');
-    
     ```
     
 
