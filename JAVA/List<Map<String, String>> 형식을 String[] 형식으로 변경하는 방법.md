@@ -1,4 +1,4 @@
-# [Java] List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법
+# List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법
 
 Java에서 `List<Map<String, String>>` 형식을 `String[]` 형식으로 변경하는 방법에는 Stream API를 사용하는 방법과 전통적인 for 루프를 사용하는 방법이 있습니다.
 
