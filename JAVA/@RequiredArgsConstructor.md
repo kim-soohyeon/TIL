@@ -1,4 +1,4 @@
-# [Java] @RequiredArgsConstructor
+# @RequiredArgsConstructor
 
 - @RequiredArgsConstructor
     - 롬복(Lombok) 라이브러리에서 제공하는 애너테이션
