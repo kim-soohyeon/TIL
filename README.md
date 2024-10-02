@@ -8,7 +8,7 @@ _8 TILs and counting..._
 
 ---
 
-### 2 most recent TILs
+### 2 most recent TILs 
 
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md) - Wed Oct 2 14:42:16 2024 +0900
 - [JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법](JAVA/JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법.md) - Wed Oct 2 14:43:59 2024 +0900
