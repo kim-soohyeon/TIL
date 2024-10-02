@@ -1,8 +1,7 @@
 # TIL
 > Today I Learned
 
-
-A collection of concrete writeups of small things I learn daily.
+오늘 배운 것들을 정리하는 곳 ✨
 
 
 _2 TILs and counting..._
@@ -11,13 +10,13 @@ _2 TILs and counting..._
 
 ### 1 most recent TILs
 
-- [# 제네릭을 사용해야 하는 이유와 예](JAVA/제네릭을 사용해야 하는 이유와 예.md) - 01 Jan 01 00:00 UTC
+- [# 제네릭을 사용해야 하는 이유와 예](JAVA/제네릭을 사용해야 하는 이유와 예.md) - Wed Oct 2 14:36:25 2024 +0900
 
 ### Categories
 
-- [JAVA](#java)
+- [JAVA](#JAVA)
 
-### [JAVA](#java)
+### [JAVA](#JAVA)
 - [# 제네릭을 사용해야 하는 이유와 예](JAVA/제네릭을 사용해야 하는 이유와 예.md)
 
 
