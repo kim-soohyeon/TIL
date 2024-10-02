@@ -1,4 +1,4 @@
-# [Java] JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법
+# JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법
 
 JUnit의 기본 개념과 Given-When-Then 패턴, JUnit 테스트 생명주기, 그리고 AssertJ를 활용하여 테스트 코드의 가독성을 높이는 방법에 대해 설명하겠습니다.
 
