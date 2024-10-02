@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
       with:
         # necessary for github-action-til-autoformat-readme
         fetch-depth: 0
     - name: Autoformat README
-      uses: cflynn07/github-action-til-autoformat-readme@1.2.4
+      uses: cflynn07/github-action-til-autoformat-readme@1.1.0
       with:
-        list_most_recent: 2
+        description: |
+          오늘 배운 것들을 정리하는 곳 ✨
+        list_most_recent: 2 # optional, lists most recent TILS below description
+        date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
