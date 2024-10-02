@@ -4,7 +4,7 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_3 TILs and counting..._
+_4 TILs and counting..._
 
 ---
 
@@ -20,5 +20,6 @@ _3 TILs and counting..._
 ### [JAVA](#JAVA)
 - [[Java] @RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
 - [[Java] JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법](JAVA/JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법.md)
+- [[Java] List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법](JAVA/List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법.md)
 
 
