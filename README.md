@@ -4,7 +4,7 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_6 TILs and counting..._
+_7 TILs and counting..._
 
 ---
 
@@ -23,5 +23,6 @@ _6 TILs and counting..._
 - [[Java] List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법](JAVA/List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법.md)
 - [## 레코드(Record)](JAVA/레코드(Record).md)
 - [## 자바에서 문자열과 이뮤터블(Immutable) 객체](JAVA/자바 문자열: 이뮤터블 vs 뮤터블.md)
+- [# 제네릭을 사용해야 하는 이유와 예](JAVA/제네릭을 사용해야 하는 이유와 예.md)
 
 
