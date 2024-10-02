@@ -1,4 +1,4 @@
-### 레코드(Record)
+# 레코드(Record)
 
 - Java 14에서 처음 소개되었고, Java 16에서 정식 기능으로 추가되었습니다.
 - 데이터 전달 객체(Data Transfer Object, DTO)를 더욱 간편하게 만들기 위한 기능을 제공합니다.
