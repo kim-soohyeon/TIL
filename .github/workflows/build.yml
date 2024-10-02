@@ -3,9 +3,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '공부/**'
-      - '전공서적/**'
+    # paths:
+    #   - '공부/**'
+    #   - '전공서적/**'
 jobs:
   build:
     runs-on: ubuntu-latest
