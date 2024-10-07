@@ -4,7 +4,7 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_9 TILs and counting..._
+_10 TILs and counting..._
 
 ---
 
@@ -21,6 +21,7 @@ _9 TILs and counting..._
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
 - [JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법](JAVA/JUnit과 AssertJ를 활용한 효과적인 단위 테스트 작성 방법.md)
 - [List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법](JAVA/List<Map<String, String>> 형식을 String[] 형식으로 변경하는 방법.md)
+- [배열의 효율적인 데이터 삽입: 위치에 따른 시간 복잡도 비교](JAVA/array-insertion-time-complexity.md)
 - [레코드(Record)](JAVA/레코드(Record).md)
 - [**배열과 ArrayList 차이점 및 활용 예시**](JAVA/배열과 ArrayList 차이점 및 활용 예시.md)
 - [자바에서 문자열과 이뮤터블(Immutable) 객체](JAVA/자바 문자열: 이뮤터블 vs 뮤터블.md)
