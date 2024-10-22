@@ -4,18 +4,19 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_12 TILs and counting..._
+_13 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [# 네트워크](네트워크/ip_address.md) - Tue Oct 22 16:52:11 2024 +0900
 - [[Java] Collection Framework: TreeSet과 HashSet의 차이점 및 예제](JAVA/JavaCollectionFramework_TreeSetVsHashSet.md) - Mon Oct 21 14:24:52 2024 +0900
-- [레코드(Record)](JAVA/Record.md) - Thu Oct 17 16:55:37 2024 +0900
 
 ### Categories
 
 - [JAVA](#JAVA)
+- [네트워크](#네트워크)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
@@ -29,5 +30,8 @@ _12 TILs and counting..._
 - [자바에서 문자열과 이뮤터블(Immutable) 객체](JAVA/StringsAndImmutableObjectsInJava.md)
 - [제네릭을 사용해야 하는 이유와 예](JAVA/WhyUseGenericsInJavaWithExamples.md)
 - [배열의 효율적인 데이터 삽입: 위치에 따른 시간 복잡도 비교](JAVA/array-insertion-time-complexity.md)
+
+### [네트워크](#네트워크)
+- [# 네트워크](네트워크/ip_address.md)
 
 
