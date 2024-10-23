@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_13 TILs and counting..._
+_14 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md) - Wed Oct 23 16:26:58 2024 +0900
 - [[네트워크] IP 주소](CS/ip_address.md) - Wed Oct 23 10:17:35 2024 +0900
-- [[Java] Collection Framework: TreeSet과 HashSet의 차이점 및 예제](JAVA/JavaCollectionFramework_TreeSetVsHashSet.md) - Mon Oct 21 14:24:52 2024 +0900
 
 ### Categories
 
@@ -20,6 +20,7 @@ _13 TILs and counting..._
 
 ### [CS](#CS)
 - [[네트워크] IP 주소](CS/ip_address.md)
+- [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
