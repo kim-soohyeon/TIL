@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_15 TILs and counting..._
+_16 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [DFS와 BFS](Algorithm/DFS_BFS_Algorithm_Explanation.md) - Tue Nov 12 12:45:22 2024 +0900
 - [그래프(Graph)](Algorithm/graph.md) - Tue Nov 12 12:17:47 2024 +0900
-- [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md) - Wed Oct 23 16:26:58 2024 +0900
 
 ### Categories
 
@@ -20,6 +20,7 @@ _15 TILs and counting..._
 - [JAVA](#JAVA)
 
 ### [Algorithm](#Algorithm)
+- [DFS와 BFS](Algorithm/DFS_BFS_Algorithm_Explanation.md)
 - [그래프(Graph)](Algorithm/graph.md)
 
 ### [CS](#CS)
