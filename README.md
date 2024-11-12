@@ -4,19 +4,23 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_14 TILs and counting..._
+_15 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [## 그래프(Graph)](Algorithm/graph.md) - Tue Nov 12 12:17:47 2024 +0900
 - [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md) - Wed Oct 23 16:26:58 2024 +0900
-- [[네트워크] IP 주소](CS/ip_address.md) - Wed Oct 23 10:17:35 2024 +0900
 
 ### Categories
 
+- [Algorithm](#Algorithm)
 - [CS](#CS)
 - [JAVA](#JAVA)
+
+### [Algorithm](#Algorithm)
+- [## 그래프(Graph)](Algorithm/graph.md)
 
 ### [CS](#CS)
 - [[네트워크] IP 주소](CS/ip_address.md)
