@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_17 TILs and counting..._
+_18 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [큐(Queue): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/queue.md) - Thu Dec 19 17:19:47 2024 +0900
 - [스택(Stack): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/stack.md) - Fri Nov 22 16:40:13 2024 +0900
-- [DFS와 BFS](Algorithm/DFS_BFS_Algorithm_Explanation.md) - Tue Nov 12 12:45:22 2024 +0900
 
 ### Categories
 
@@ -22,6 +22,7 @@ _17 TILs and counting..._
 ### [Algorithm](#Algorithm)
 - [DFS와 BFS](Algorithm/DFS_BFS_Algorithm_Explanation.md)
 - [그래프(Graph)](Algorithm/graph.md)
+- [큐(Queue): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/queue.md)
 - [스택(Stack): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/stack.md)
 
 ### [CS](#CS)
