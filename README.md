@@ -22,7 +22,7 @@ _19 TILs and counting..._
 ### [Algorithm](#Algorithm)
 - [DFS와 BFS](Algorithm/DFS_BFS_Algorithm_Explanation.md)
 - [그래프(Graph)](Algorithm/graph.md)
-- [**해시의 개념**](Algorithm/hash.md)
+- [**해시(hash)**](Algorithm/hash.md)
 - [큐(Queue): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/queue.md)
 - [스택(Stack): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/stack.md)
 
