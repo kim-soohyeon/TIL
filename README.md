@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_19 TILs and counting..._
+_20 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md) - Fri Jan 10 10:35:10 2025 +0900
 - [큐(Queue): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/queue.md) - Thu Dec 19 17:19:47 2024 +0900
-- [스택(Stack): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/stack.md) - Fri Nov 22 16:40:13 2024 +0900
 
 ### Categories
 
@@ -29,6 +29,7 @@ _19 TILs and counting..._
 ### [CS](#CS)
 - [[네트워크] IP 주소](CS/ip_address.md)
 - [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md)
+- [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
