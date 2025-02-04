@@ -4,7 +4,7 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
@@ -30,6 +30,7 @@ _20 TILs and counting..._
 - [[네트워크] IP 주소](CS/ip_address.md)
 - [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md)
 - [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md)
+- [트랜잭션과 오토커밋](CS/transaction_autocommit_management.md)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
