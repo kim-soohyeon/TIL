@@ -4,7 +4,7 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_23 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
@@ -27,6 +27,7 @@ _23 TILs and counting..._
 - [스택(Stack): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/stack.md)
 
 ### [CS](#CS)
+- [데이터 무결성과 제약 조건](CS/data-integrity-and-constraint.md)
 - [DB 옵티마이저와 실행 계획](CS/dboptimizer_executionplan.md)
 - [인덱스와 성능 최적화](CS/index_concept_and_optimization.md)
 - [[네트워크] IP 주소](CS/ip_address.md)
