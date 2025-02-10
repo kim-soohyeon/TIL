@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_24 TILs and counting..._
+_25 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [데이터베이스의 유형과 활용](CS/database_types_columnar_vs_relational.md) - Mon Feb 10 16:46:05 2025 +0900
 - [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md) - Fri Jan 10 10:35:10 2025 +0900
-- [큐(Queue): 개념과 ADT 정의, 그리고 활용법 (Java 예제포함)](Algorithm/queue.md) - Thu Dec 19 17:19:47 2024 +0900
 
 ### Categories
 
@@ -28,6 +28,7 @@ _24 TILs and counting..._
 
 ### [CS](#CS)
 - [데이터 무결성과 제약 조건](CS/data-integrity-and-constraint.md)
+- [데이터베이스의 유형과 활용](CS/database_types_columnar_vs_relational.md)
 - [DB 옵티마이저와 실행 계획](CS/dboptimizer_executionplan.md)
 - [인덱스와 성능 최적화](CS/index_concept_and_optimization.md)
 - [[네트워크] IP 주소](CS/ip_address.md)
