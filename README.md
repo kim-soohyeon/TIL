@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_25 TILs and counting..._
+_26 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md) - Wed Feb 12 16:34:52 2025 +0900
 - [데이터베이스의 종류와 특징](CS/database_types_and_features.md) - Tue Feb 11 15:37:25 2025 +0900
-- [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md) - Fri Jan 10 10:35:10 2025 +0900
 
 ### Categories
 
@@ -34,6 +34,7 @@ _25 TILs and counting..._
 - [[네트워크] IP 주소](CS/ip_address.md)
 - [행렬의 정의와 행렬 곱셈 규칙](CS/matrix_definition_and_multiplication_rules.md)
 - [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md)
+- [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md)
 - [트랜잭션과 오토커밋](CS/transaction_autocommit_management.md)
 
 ### [JAVA](#JAVA)
