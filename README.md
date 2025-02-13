@@ -4,14 +4,14 @@
 오늘 배운 것들을 정리하는 곳 ✨
 
 
-_26 TILs and counting..._
+_27 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [1. VMware 설치](CS/vmware_download.md) - Thu Feb 13 17:23:43 2025 +0900
 - [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md) - Wed Feb 12 16:34:52 2025 +0900
-- [데이터베이스의 종류와 특징](CS/database_types_and_features.md) - Tue Feb 11 15:37:25 2025 +0900
 
 ### Categories
 
@@ -36,6 +36,7 @@ _26 TILs and counting..._
 - [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md)
 - [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md)
 - [트랜잭션과 오토커밋](CS/transaction_autocommit_management.md)
+- [1. VMware 설치](CS/vmware_download.md)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
