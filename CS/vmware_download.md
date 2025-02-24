@@ -1,4 +1,4 @@
-# VMware 설치방법(Windows)
+# VMware 및 CentOS 설치 방법(Windows)
 
 1. Broadcom 가입 및 VMware 설치파일 다운로드
 
@@ -49,3 +49,35 @@
     
     3.2. 아래와 같이 실행되면 정상적으로 설치된 것입니다.
     ![Image](https://github.com/user-attachments/assets/672ff88b-079b-401d-b700-a7923fab9e81)
+
+
+4. CentOS 설치파일 다운로드
+
+    4.1. 아래 링크에서 ISO파일을 다운로드합니다.
+         https://www.centos.org/download/
+         ![Image](https://github.com/user-attachments/assets/0f108b1c-6442-4007-b935-b647feb15a9f)
+
+5. VMware에 CentOS 설치하기
+    
+    5.1. Create a new Virtual Machine을 클릭합니다.
+    ![Image](https://github.com/user-attachments/assets/30d1f906-a67a-4882-ac85-26203011b4ce)
+
+    5.2. Typical을 선택 후 다음으로 넘어갑니다.
+    ![Image](https://github.com/user-attachments/assets/4351abb9-0a41-46a0-9f80-6e2592ba3a93)
+
+    5.3. image 파일을 선택하지 않고 다음으로 넘어갑니다.
+    ![Image](https://github.com/user-attachments/assets/03af117f-ff2f-4ab5-813d-30ae3cc2146c)
+
+    5.4. CentOS10 버전이 없어서 가장 최근 버전을 선택하여 진행합니다.
+    ![Image](https://github.com/user-attachments/assets/ef3b7981-d34f-4cfb-a3d3-aa81a68bdc2f)
+
+    5.5. 설치 경로와 가상머신의 이름을 지정합니다.
+    ![Image](https://github.com/user-attachments/assets/9d97e426-ef05-4f5f-8193-20d470c19492)
+
+    5.6. "Store virtual disk as a single file" 을 선택 후 다음으로 넘어갑니다.
+    ![Image](https://github.com/user-attachments/assets/fee2c1b6-6cb2-4657-931d-8888a254c691)
+
+    5.7. 내용을 확인 후 "finish" 버튼을 클릭합니다.
+    ![Image](https://github.com/user-attachments/assets/e3f2a436-d1e0-4403-8ac3-c94e66476b63)
+
+    
