@@ -10,7 +10,7 @@ _27 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [VMware 설치방법(Windows)](CS/vmware_download.md) - Thu Feb 13 17:23:43 2025 +0900
+- [VMware 및 CentOS 설치 방법(Windows)](CS/vmware_download.md) - Thu Feb 13 17:23:43 2025 +0900
 - [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md) - Wed Feb 12 16:34:52 2025 +0900
 
 ### Categories
@@ -36,7 +36,7 @@ _27 TILs and counting..._
 - [MVC와 MVVM 모델](CS/mvc_vs_mvvm.md)
 - [대칭 키 vs 비대칭 키 암호화](CS/symmetric_vs_asymmetric_encryption.md)
 - [트랜잭션과 오토커밋](CS/transaction_autocommit_management.md)
-- [VMware 설치방법(Windows)](CS/vmware_download.md)
+- [VMware 및 CentOS 설치 방법(Windows)](CS/vmware_download.md)
 
 ### [JAVA](#JAVA)
 - [@RequiredArgsConstructor](JAVA/@RequiredArgsConstructor.md)
