@@ -57,27 +57,90 @@
          https://www.centos.org/download/
          ![Image](https://github.com/user-attachments/assets/0f108b1c-6442-4007-b935-b647feb15a9f)
 
-5. VMware에 CentOS 설치하기
+5. **VMware에 CentOS 설치하기**
     
-    5.1. Create a new Virtual Machine을 클릭합니다.
+    **5.1. 가상 머신 생성**
+    
+    1. Create a new Virtual Machine을 클릭합니다.
     ![Image](https://github.com/user-attachments/assets/30d1f906-a67a-4882-ac85-26203011b4ce)
 
-    5.2. Typical을 선택 후 다음으로 넘어갑니다.
+    2. "Typical"을 선택한 후 다음 단계로 진행합니다.
     ![Image](https://github.com/user-attachments/assets/4351abb9-0a41-46a0-9f80-6e2592ba3a93)
 
-    5.3. image 파일을 선택하지 않고 다음으로 넘어갑니다.
+    3. 설치 이미지 파일을 선택하지 않고 그대로 진행합니다.
     ![Image](https://github.com/user-attachments/assets/03af117f-ff2f-4ab5-813d-30ae3cc2146c)
 
-    5.4. CentOS10 버전이 없어서 가장 최근 버전을 선택하여 진행합니다.
+    4. CentOS의 최신 버전을 선택하여 진행합니다.
     ![Image](https://github.com/user-attachments/assets/ef3b7981-d34f-4cfb-a3d3-aa81a68bdc2f)
 
-    5.5. 설치 경로와 가상머신의 이름을 지정합니다.
+    5. 가상 머신의 이름과 설치 경로를 지정합니다.
     ![Image](https://github.com/user-attachments/assets/9d97e426-ef05-4f5f-8193-20d470c19492)
 
-    5.6. "Store virtual disk as a single file" 을 선택 후 다음으로 넘어갑니다.
+    6. "Store virtual disk as a single file" 옵션을 선택한 후 다음 단계로 넘어갑니다.
     ![Image](https://github.com/user-attachments/assets/fee2c1b6-6cb2-4657-931d-8888a254c691)
 
-    5.7. 내용을 확인 후 "finish" 버튼을 클릭합니다.
+    7. 설정 내용을 확인하고 "Finish" 버튼을 클릭하여 가상 머신을 생성합니다.
     ![Image](https://github.com/user-attachments/assets/e3f2a436-d1e0-4403-8ac3-c94e66476b63)
 
+    **5.2. 가상 머신 설정 변경**
+
+    1. "Edit virtual machine settings"를 선택합니다.
+    ![Image](https://github.com/user-attachments/assets/f3872a75-5edb-42d2-b4f6-9f441be097da)
+
+    2. 메모리와 CPU 성능을 조정합니다.
+        - 메모리: 2GB
+        - CPU: 2 * 2
+    ![Image](https://github.com/user-attachments/assets/cd85e802-6b13-4cee-94b7-d97fe83b784f)
+
+    3. "CD/DVD" 항목에서 다운로드한 CentOS ISO 파일을 선택합니다.
+    ![Image](https://github.com/user-attachments/assets/c29b8a11-b53f-4689-baf8-848d7b01daff)
+
+    **5.3. 가상 머신 실행 및 CentOS 설치**
+
+    1. "Power on this virtual machine"을 클릭하여 가상 머신을 실행합니다.
+    ![Image](https://github.com/user-attachments/assets/90e031ba-8783-4a0e-b3a6-847f76aaeccb)
+
+    2. 부팅 후 " Install CentOS steam 10" 를 선택합니다.
+    ![Image](https://github.com/user-attachments/assets/0a51f363-38fe-453b-a2aa-b32d8e4a381e)
+
+    3. 언어 설정에서 한국어를 선택하고 "계속 진행" 을 클릭합니다.
+    ![Image](https://github.com/user-attachments/assets/2ac2b537-ae21-4598-b21a-a0fecf5cd58a)
+
+    **5.4. 설치 환경 설정**
+        
+    1. 네트워크 및 호스트 이름 설정
+        ![Image](https://github.com/user-attachments/assets/37c03cb3-7fab-4546-95a6-8da040bc0a74) 
+        - 호스트 이름을 변경 후 "적용" 버튼을 클릭합니다.
+        ![Image](https://github.com/user-attachments/assets/a19b9da8-b3c4-457e-a3d3-f77374eee592)
+        
+    2. KDUMP 비활성화
+        ![Image](https://github.com/user-attachments/assets/bd28d2a5-94bb-4fd7-81d0-c8d859a83dbc)
+        - KDUMP를 비활성화합니다.
+        ![Image](https://github.com/user-attachments/assets/45bf68f1-7195-4f2f-89eb-9b353dca441b)
     
+        3. 사용자 계정 생성
+        ![Image](https://github.com/user-attachments/assets/0935e198-09fd-4a1e-a23a-3e367103207f)
+        - 사용자 계정을 생성하고 필요한 정보를 입력합니다.
+        ![Image](https://github.com/user-attachments/assets/5fdcbddc-924e-4c73-a336-6c137ba0a540)
+    
+        4. root 계정 활성화
+        ![Image](https://github.com/user-attachments/assets/3e8479b3-45f2-441e-9b10-ed823fd5b8fe)
+        - root 계정을 활성화하고 비밀번호를 설정합니다.
+        ![Image](https://github.com/user-attachments/assets/a51f22da-1afb-4478-b732-b7fe05f6b141)
+    
+    **5.5. 설치 진행 및 완료**
+        - "설치 시작" 버튼을 클릭하여 설치를 진행합니다.
+        ![Image](https://github.com/user-attachments/assets/8fa43566-a3bb-431d-b6c5-1bc7815f477c)
+        - 설치가 완료되면 "시스템 재시작" 버튼을 클릭하여 설치를 마칩니다.
+        ![Image](https://github.com/user-attachments/assets/ce79a4cd-8c09-42e7-977a-c84bbb22b9a7)
+    
+    **5.6. root 계정으로 로그인 및 네트워크 확인**
+        1. 로그인 화면에서 "목록에 없습니까?" 를 클릭합니다.
+        ![Image](https://github.com/user-attachments/assets/40495058-549e-47b3-86a6-9f598e34fd67)
+        2. 사용자명에 "root" 를 입력하고 로그인합니다.
+        ![Image](https://github.com/user-attachments/assets/751bef40-fe8e-406c-98dd-7acdb7bc3ee0)
+        3. 명령어 확인
+        - whoami 명령어를 실행하여 root 계정으로 로그인되었는지 확인합니다.
+        - ping 명령어를 실행하여 네트워크가 정상적으로 연결되었는지 확인합니다.
+        ![Image](https://github.com/user-attachments/assets/5c2a85fa-074f-4c17-b8e3-baec294f3709)
+        
